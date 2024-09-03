@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: linear-gradient(90deg, #f77168, #ba70e8, #ef4d70, #ccf768);
+}
+
+.todo {
+    text-align: center;
+    color: white;
+    height: auto;
+    border-radius: 4px;
+    width: 500px;
+    margin: auto;
+    background-color: rgba(15, 15, 15, 0.826);
+    padding-bottom: 20px;
+
+}
+
+input {
+    padding-left: 10px;
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+#btn1 {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(45deg, #e5365c, #f77168);
+    color: white;
+    font-weight: bolder;
+}
+
+.task {
+    width: 450px;
+    margin: auto;
+    border-radius: 4px;
+    text-align: left;
+    margin-top: 20px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    padding: 0px 15px;
+    font-weight: bolder;
+    line-height: 35px;
+}
+
+#check {
+    float: right;
+    height: 18px;
+    width: 22px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.removelist {
+
+    color: rgb(140, 0, 255);
+    cursor: pointer;
+    font-size: 35px;
+    margin-bottom: 5px;
+    float: right;
+    border: none;
+    background-color: white;
+}
